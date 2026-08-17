@@ -15,10 +15,10 @@ responses by damped best-response iteration, and evaluated by Monte Carlo simula
 |`final_run_v3_4.py`|	Complete reference implementation (model, fixed-point solver, all experiments, sensitivity and robustness appendices, figure generation).|
 |`results.json`|	Archived numerical output of the full pipeline (all experiments, appendices, and Monte Carlo standard errors).|
 |`requirements.txt`|	Python dependencies.|
-Requirements
+## Requirements
 Python 3.9+ with `numpy`, `scipy`, and `matplotlib`
 (`pip install -r requirements.txt`).
-How to run
+## How to run
 Full recomputation (recreates `results.json` and every PNG figure from
 scratch; this runs all experiments and appendices and takes a while):
 ```bash
@@ -29,20 +29,19 @@ the archived `results.json`, in seconds):
 ```bash
 python final_run_v3_4.py --figures-only
 ```
-Reproducibility
-Base seed: 42. Every reported statistic is the mean over ten
-independent replications per configuration, each with
+## Reproducibility
+* Base seed: 42. Every reported statistic is the mean over ten independent replications per configuration, each with
 N = 10,000 manuscripts.
-Replication seeds are derived deterministically from the base seed
+* Replication seeds are derived deterministically from the base seed
 and the configuration tuple — replication index, reputational weight
 (1−φ), quality reward β_r, and friction k₀ — via NumPy's
 `SeedSequence`, so every table and figure of the manuscript
 (including the appendices) is exactly reproducible without further
 input.
-Monte Carlo standard errors are computed across replications and
+* Monte Carlo standard errors are computed across replications and
 stored in `results.json` alongside every headline quantity
 (`*_se` keys).
-Mapping of outputs to the manuscript
+## Mapping of outputs to the manuscript
 `results.json` key	Manuscript artifact
 `exp1`	Table 4; Figure 2 (`figphase1.png`)
 `exp2`, `exp2_forced`	Table 5; Figure 3 (`figphase2.png`); Figure 4 (`figexp2.png`)

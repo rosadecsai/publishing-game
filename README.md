@@ -1,3 +1,5 @@
+#The Publishing Game: How Editors, Reviewers, and Authors Shape Informetric Dynamics
+
 The Publishing Game — reference implementation
 Simulation code and archived numerical output for:
 > J. A. García, R. Rodriguez-Sánchez, J. Fdez-Valdivia,

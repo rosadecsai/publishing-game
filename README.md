@@ -60,7 +60,3 @@ source (TikZ/pgfplots) and have no PNG counterpart.
 ## License
 MIT
 
-##Citation
-If you use this code, please cite the paper above. A citable archive of
-this repository is deposited on Zenodo (DOI: 10.5281/zenodo.XXXXXXX
-<!-- TODO: replace with the minted DOI -->).# The Publishing Game: How Editors, Reviewers, and Authors Shape Informetric Dynamics

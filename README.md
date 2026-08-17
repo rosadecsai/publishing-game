@@ -42,23 +42,25 @@ input.
 stored in `results.json` alongside every headline quantity
 (`*_se` keys).
 ## Mapping of outputs to the manuscript
-`results.json` key	Manuscript artifact
-`exp1`	Table 4; Figure 2 (`figphase1.png`)
-`exp2`, `exp2_forced`	Table 5; Figure 3 (`figphase2.png`); Figure 4 (`figexp2.png`)
-`exp2_WJ`	Welfare-optimal contract paragraph (Sec. 4.4)
-`exp3`, `exp3_curves`	Table 6; Figure 5 (`figsimulation.png`)
-`exp4`	Table 7; Figure 6 (`figphase4_integration.png`)
-`exp5`, `exp5_forced`	Table 8; Figure 7, Panel A (pgfplots in TeX)
-`sens_tipping`	Table B.9
-`sens_bstar_k0`, `sens_bstar_wr`	Figure B.8 (`figsens.png`)
-`exp1_dro`, `exp4_dro`	Table C.10 (desk-reject-only institution)
-`structD`	Table D.11 (structural perturbations)
+|`results.json` key|	Manuscript artifact|
+| :--- | :---: | 
+|`exp1`|	Table 4; Figure 2 (`figphase1.png`)|
+|`exp2`, `exp2_forced`	|Table 5; Figure 3 (`figphase2.png`); Figure 4 (`figexp2.png`)|
+|`exp2_WJ`|	Welfare-optimal contract paragraph (Sec. 4.4)
+|`exp3`, `exp3_curves`|	Table 6; Figure 5 (`figsimulation.png`)|
+|`exp4`|	Table 7; Figure 6 (`figphase4_integration.png`)|
+|`exp5`, `exp5_forced`|	Table 8; Figure 7, Panel A (pgfplots in TeX)|
+|`sens_tipping`|	Table B.9|
+|`sens_bstar_k0`, `sens_bstar_wr`|	Figure B.8 (`figsens.png`)|
+|`exp1_dro`, `exp4_dro`|	Table C.10 (desk-reject-only institution)|
+|`structD`|	Table D.11 (structural perturbations)|
+
 Figure 1 and both panels of Figure 7 are drawn directly in the LaTeX
 source (TikZ/pgfplots) and have no PNG counterpart.
-License
-<!-- TODO: choose a license (e.g., MIT) before publishing the repository. -->
-To be specified by the authors.
-Citation
+## License
+MIT
+
+##Citation
 If you use this code, please cite the paper above. A citable archive of
 this repository is deposited on Zenodo (DOI: 10.5281/zenodo.XXXXXXX
 <!-- TODO: replace with the minted DOI -->).# The Publishing Game: How Editors, Reviewers, and Authors Shape Informetric Dynamics

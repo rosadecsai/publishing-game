@@ -1,20 +1,20 @@
-#The Publishing Game: How Editors, Reviewers, and Authors Shape Informetric Dynamics
+# The Publishing Game: How Editors, Reviewers, and Authors Shape Informetric Dynamics
 
-The Publishing Game — reference implementation
-Simulation code and archived numerical output for:
+The Publishing Game — reference implementation Simulation code and archived numerical output for:
 > J. A. García, R. Rodriguez-Sánchez, J. Fdez-Valdivia,
 > **"The Publishing Game: How Editors, Reviewers, and Authors Shape
 > Informetric Dynamics"**, *Journal of Informetrics* (under review,
 > manuscript JOI-D-26-00430, first revision).
-The model is a tripartite sequential game (editor–reviewer–author) whose
+
+The model is a tripartite sequential game (editor–reviewer–author) whose 
 equilibrium is computed as a fixed point of the agents' coupled best
-responses by damped best-response iteration, and evaluated by Monte
-Carlo simulation.
-Contents
-File	Description
-`final_run_v3_4.py`	Complete reference implementation (model, fixed-point solver, all experiments, sensitivity and robustness appendices, figure generation).
-`results.json`	Archived numerical output of the full pipeline (all experiments, appendices, and Monte Carlo standard errors).
-`requirements.txt`	Python dependencies.
+responses by damped best-response iteration, and evaluated by Monte Carlo simulation.
+ ## Contents
+|File	|Description|
+| :--- | :---: | 
+|`final_run_v3_4.py`|	Complete reference implementation (model, fixed-point solver, all experiments, sensitivity and robustness appendices, figure generation).|
+|`results.json`|	Archived numerical output of the full pipeline (all experiments, appendices, and Monte Carlo standard errors).|
+|`requirements.txt`|	Python dependencies.|
 Requirements
 Python 3.9+ with `numpy`, `scipy`, and `matplotlib`
 (`pip install -r requirements.txt`).
